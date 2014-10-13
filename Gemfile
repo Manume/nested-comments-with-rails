@@ -40,4 +40,8 @@ gem 'spring',        group: :development
 
 gem 'closure_tree'
 gem 'bootstrap-sass'
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
  	
